@@ -1,0 +1,17 @@
+{
+  "name": "livevideo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=4906 --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Egle <egletarabildiene@gmail.com> (https://github.com/EgleTarabildiene)",
+  "license": "MIT",
+  "devDependencies": {
+    "dead": "^0.0.2",
+    "server": "^1.0.38"
+  }
+}
