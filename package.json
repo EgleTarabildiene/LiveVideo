@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server --host=localhost --port=4906 --verbose",
+    "dev": "dead-server --host=localhost --port=4906",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Egle <egletarabildiene@gmail.com> (https://github.com/EgleTarabildiene)",
   "license": "MIT",
   "devDependencies": {
-    "dead": "^0.0.2",
-    "server": "^1.0.38"
+    "dead-server": "^1.0.9"
   }
 }

@@ -1,0 +1,43 @@
+main {
+    display: inline-block;
+    width: 100%;
+    font-family: Arial;
+    color: blue;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 50px;
+}
+div > p {
+    color: blue;
+}
+
+main > div {
+    background-color: white;
+        float: left;
+        width: 50%;
+       
+    }
+
+
+
+main > div > div > a {
+    text-decoration: none;
+    
+}
+
+
+img {
+    width: 50%;
+    float: left;
+    height: 400px;
+
+}
+
+.tekstas {
+    background-color: aqua;
+    margin-top: 80px;
+    align-items: center;
+}
+
