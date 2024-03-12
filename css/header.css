@@ -1,25 +1,21 @@
-header {
-    background-color: yellow;
-    width: 100%;
-}
 
-header > img {
+.logo {
     height: 40px;
-    background-color: green;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    float: left;
-    width: 200px;
+}
+
+.main-nav {
+   display: flex;
+   gap: 20px;
 
 }
 
-nav > a {
+.link {
     color: blue;
+    font-size: 20px;
     text-decoration: none;
-    padding: 10px;
-    font-family: Arial;
-float: right;
-margin: 20px;
 }
 
 
+.link:hover {
+    background-color: red;
+}
