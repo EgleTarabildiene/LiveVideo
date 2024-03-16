@@ -35,11 +35,15 @@ main.container {
     text-transform: uppercase;
     color: black;
     line-height: 48px;
+    padding: 20px;
+    background-color: #fff;
+   
 }
 
 .description {
     font-size: 18px;
     margin-bottom: 20px;
+    background-color: #fff;
 }
 
 .btn {
@@ -63,4 +67,10 @@ main.container {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right bottom ;
+}
+
+@media (max-width: 700px) {
+.main-nav {
+        display: none;
+    }
 }
